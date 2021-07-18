@@ -1,0 +1,122 @@
+ ul{
+    padding-top: 10px;
+    
+  }
+
+  c{
+    margin-top: 10px  ;
+  }
+
+  s{
+    font-size: large;
+  }
+
+  hr.rounded {
+    border-top: 8px solid rgb(2, 2, 2);
+   border-radius: 5px;
+    
+}
+
+  cen{
+  
+    /* margin-right: 490px; */
+    position: relative;top: 55px;
+    position: relative;right: 555px;
+  }
+
+  .cen2{
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .marright{
+    margin-right: 0px;
+    margin-left: auto;
+  }
+
+  .image-container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+  }
+
+  .image-container1 {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;right: 100px;
+    float:"left";
+    border-radius: 50%;
+  }
+  .image-container2 {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    position: relative;left: 10px;
+    float:"left";
+    border-radius: 50%;
+  }
+
+  .image-container3 {
+    width: 10px;
+    height: 10px;
+    overflow: hidden;
+    position: relative;left: 10px;
+    float:"left";
+    border-radius: 50%;
+  }
+
+  
+
+
+  fo{
+    font-size: large;
+    /* color: rgb(163, 20, 20); */
+  }
+
+  fi{
+    font-size:medium;
+    color: rgb(73, 72, 72);
+  }
+  fa{
+    font-size: 30px;
+    color: rgb(73, 72, 72);
+  }
+  hi{
+    font-size: 50px;
+    
+   
+  }
+
+  f{
+       color: black;
+   }
+   w{
+       color:white;
+   }
+   .rotated {
+    transform: rotate(260deg); /* Equal to rotateZ(45deg) */
+  }
+  #my-glyphicon {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    color:white;
+ }
+ 
+ fon{
+   font-style: bold;
+   font-size: small;
+ }
+
+
+
+
+ 

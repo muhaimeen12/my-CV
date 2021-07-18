@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Personal Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="main.css">
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #042e6d;
+      padding: 25px;
+    }
+
+    .checked-star {
+    color: orange;
+    }
+  </style>
+  
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button style="background-color: black;" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span style="background-color: white;" class="icon-bar"></span>
+          <span style="background-color: white;" class="icon-bar"></span>
+          <span style="background-color: white;" class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">Portfolio</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li ><a href="index.html">About</a></li>
+          <li class="active"><a href="CV.html">CV</a></li>        
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <img src="image/hasan.jpg" style="border-radius: 70%;height: 200px;width: 200px;" >
+    <h3><b>Hasan Abdul Muhaimeen</b></h3> 
+  </div> 
+
+<hr style="color: black;" class="rounded">
+
+<div class="jumbotron">
+    <div class="container text-left">
+       <div class="row">
+        <div class="col-sm-6">
+       <table>
+        <h3 ><img src="image/user.png" width="80" height="80"> Personal Data</h3>  
+        <tr>
+            
+            <td>
+              <label><fo>Place, Date of Birth</fo></label>
+            </td>
+            <td ><fo>:</fo></td>
+            <td><label>&nbsp;<fi>kayalpatnam, 02 oct 2000</fi></label></td>
+            
+          </tr>
+          <tr>
+            
+            <td>
+              <label for="gender"><fo>Gender</fo></label><br>
+            </td>
+            <td ><fo>:</fo></td>
+            <td><label type="text" name="gender" id="gender">&nbsp;<fi> Male</fi></label></td>
+            
+          </tr>
+           
+          <tr>
+            
+            <td>
+              <label ><fo>Marital status</fo></label><br>
+            </td>
+            <td ><fo>:</fo></td>
+            <td><label type="text" name="religion" id="religion">&nbsp;<fi>Single</fi></label></td>
+            
+          </tr>
+          <tr>
+            
+            <td>
+              <label for="religion"><fo>Religion</fo></label><br>
+            </td>
+            <td ><fo>:</fo></td>
+            <td><label type="text" name="religion" id="religion">&nbsp;<fi>Muslim</fi></label></td>
+            
+          </tr>
+          <tr>
+            
+            <td>
+              <label for="address"><fo>Address</fo></label><br>
+            </td>
+            <td ><fo>:</fo></td>
+            <td><label type="text" name="address" id="address">&nbsp;<fi>155,Periya Nesavu Street,Kayalpatnam - Thoothukudi</fi></label></td>
+            
+          </tr> 
+        </table>
+        </div>
+      </div>
+  
+      <div class="col-sm-6"></div>
+    </div>
+     <div class="row">
+        <div class="col-sm-6"></div>
+        <div class="col-sm-6" >
+        <table style="margin-left: 10px;">
+        <h3 ><img src="image/phone.png" width="80" height="80"> Contact</h3>  
+        <tr >
+            
+            <td >
+              
+              <label  for="email"><fo>Email</fo></label><br>
+            </td>
+            <td ><fo>:</fo></td>
+            <td><label  type="text" name="email" id="email">&nbsp;<fi>abdulmuhaimeen2000@gmail.com</fi></label></td>
+            
+          </tr>
+          <tr>
+            
+            <td>
+              <label for="hp"><fo>Phone No</fo></label><br>
+            </td>
+            <td ><fo>:</fo></td>
+            <td><label type="text" name="hp" id="hp">&nbsp;<fi>+919791211059</fi></label></td>
+            
+          </tr>
+        </table>
+    </div>
+  </div>
+
+    <div class="jumbotron">
+      <div class="container text-left">
+        <div class="row">
+          <div class="col-sm-6">
+
+                <table>
+                  <h3 ><img src="image/skill.png" width="80" height="80"> Skills</h3>  
+                </br>
+                  <tr>
+                      
+                      <td>
+                        <label style="position: relative; left: 5px; top:3px;" for="date"><img src="image/html.png" width="50" height="50"></label><br>
+                      </td>
+                      
+                      <td><span class="fa fa-star checked-star"></span>
+                        <span class="fa fa-star checked-star"></span>
+                        <span class="fa fa-star checked-star"></span>
+                        <span class="fa fa-star checked-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span></td>
+    
+                    </tr>
+                    <tr>
+                      
+                      <td>
+                      </br>
+                        <label style="position: relative; left: 5px; top:3px;" for="date"><img src="image/css.png" width="50" height="50"></label><br>
+                      </td>
+                      
+                      <td>&nbsp;</br><span  class="fa fa-star checked-star"></span>
+                        <span  class="fa fa-star checked-star"></span>
+                        <span  class="fa fa-star checked-star"></span>
+                        <span  class="fa fa-star checked-star"></span>
+                        <span  class="fa fa-star"></span>
+                        <span  class="fa fa-star "></span>
+                        <span  class="fa fa-star "></span>
+                        <span  class="fa fa-star "></span>
+                        <span  class="fa fa-star"></span>
+                        <span  class="fa fa-star"></span></td>
+                      
+                    </tr>
+                    <tr>
+                      
+                      <td>
+                      </br>
+                     <label ><fon>JavaScript</fon></label></br>
+                        <label style="position: relative; left: 10px; top:3px;" for="date"><img src="image/js.png" width="40" height="40"></label><br>
+                      </td>
+                      
+                      <td>&nbsp;</br></br><span class="fa fa-star checked-star"></span>
+                        <span class="fa fa-star checked-star"></span>
+                        <span class="fa fa-star checked-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span></td>
+                      
+                    </tr>
+                    <tr>
+                      
+                      <td>
+                      </br>
+                      <label style="position: relative; left: 10px; top:7px;" ><fon>Java</fon></label></br>
+                        <label style="position: relative; left: 10px; top:5px;" ><img src="image/java.png" width="40" height="40"></label><br>
+                      </td>
+                      
+                      <td></br></br><span class="fa fa-star checked-star"></span>
+                        <span class="fa fa-star checked-star"></span>
+                        <span class="fa fa-star checked-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span></td>
+                    </tr>
+              </table>
+
+    </div>
+  
+    <div class="col-sm-6"></div>
+  </div>
+    <div class="row">
+    <div class="col-sm-6"></div>
+  
+  <div class="col-sm-6">
+
+    <table >
+      <h3 ><img src="image/college.png" width="80" height="80"> Education</h3>  
+      <tr>
+          
+          <td>
+            <label for="date"><fo>University</fo></label>
+           <br>
+          </td>
+          <td ><fo>:</fo></td>
+          <td><label type="text" name="date" id="date"><fi>&nbsp;Electronics and Communication Engineering</fi></label>
+            <label type="text" name="date" id="date"><fi>&nbsp;at M.A.M College of Engineering ,Anna University</fi></label></td>
+          
+        </tr>
+        <tr>
+          
+          <td>
+            <label  for="gender"><fo>School</fo></label><br>
+          </td>
+          <td ><fo>:</fo></td>
+          <td><label type="text" name="gender" id="gender"><fi>&nbsp;L.K Higher Secondary School,Kayalpatnam</fi></label></td>
+          
+        </tr>
+  
+  </table>
+  </div>
+    
+        </table>
+
+    </div>
+    <div class="col-sm-6"></div>
+  </div>
+    <div class="row">
+    <div class="col-sm-6"></div>
+    <div class="col-sm-6">
+      <table>
+        <h3 ><img src="image/translation.png" width="80" height="80"> Languages</h3>  
+        <tr>
+                        
+          <td>
+          </br>
+            <label><fi>Tamil</fi></label><br>
+          </td>
+          
+          <td></br>&nbsp;&nbsp;<span class="fa fa-star checked-star"></span>
+            <span class="fa fa-star checked-star"></span>
+            <span class="fa fa-star checked-star"></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star"></span>
+           </td>
+          
+        </tr>
+        <tr>
+                        
+          <td>
+          </br>
+            <label><fi>English</fi></label></br>
+          </td>
+          
+          <td></br>&nbsp;&nbsp;<span class="fa fa-star checked-star"></span>
+            <span class="fa fa-star checked-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+           </td>
+          
+        </tr>
+        
+        <tr>
+                        
+          <td>
+          </br>
+            <label ><fi>Malayalam</fi></label><br>
+          </td>
+          
+          <td></br>&nbsp;&nbsp;<span class="fa fa-star checked-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+           </td>
+          
+        </tr>
+        
+         
+    </table>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+
+
+<hr style="color: black;" class="rounded">
+</div>
+<div class="container text-center">
+  <p ><b>I am interest at Website Design,Game Development, and Team Works</b></p>
+</div>
+
+<footer class="container-fluid text-center">
+  
+  <p><a href="https://www.instagram.com/it_is_me__black"><img src="image/instagram.png" alt="" width="45"></a>
+    <a href="https://www.linkedin.com/in/hasan-abdul-muhaimeen-4152ab202"><img src="image/linkedin.png" alt="" width="45"></a></p>
+    
+  <f><i class="fa fa-android"  style="font-size:24px" ></i></f>
+  <div>
+  <p><w><span class="glyphicon glyphicon-thumbs-up" id="my-glyphicon"></span><w>Electronics and Communication Engineering<i class="glyphicon glyphicon-thumbs-up"></i></w></w></p>
+  <i class="material-icons" style="color: black;">computer</i>
+</div>
+<br>
+<label ><w>&nbsp;Link Portofolio/CV :</w></label><br>
+            <label ><w>&nbsp;https://muhaimeen12.github.io/muhaimeen12.github.io/</w></label>
+</footer>
+
+</body>
+</html>
